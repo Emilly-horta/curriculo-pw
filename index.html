@@ -1,0 +1,119 @@
+<html>
+  <head></head>
+  <link />
+  <script type="text/javascript" src="estados-cidades.js"></script>
+  <body>
+    <form action="" method="submit">
+      <fieldset>
+        <legend><b style="background-color:blueviolet; color:#fff;">Dados Pessoais</b></legend>
+        Nome: <input type="" id="radio" /> <label for="radio"></label> Data de
+        Nascimento: <input type="date" id="radio" /> <label for="radio"></label
+        ><br />
+        Endereço: <input type="" id="radio" />
+        <label for="radio"></label>
+        UF:
+        <select onchange="buscaCidades(this.value)" id="estado">
+          <option value="">Selecione o Estado</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AM">Amazonas</option>
+          <option value="AP">Amapá</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RO">Rondônia</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SE">Sergipe</option>
+          <option value="SP">São Paulo</option>
+          <option value="TO">Tocantins</option>
+        </select>
+        Cidade:
+        <select id="cidade"></select
+        ><br />
+        Celular: <input type="tel" id="radio" />
+        <label for="radio"></label> E-mail: <input type="" id="radio" />
+        <label for="radio"></label><br />
+        CPF: <input type="" id="radio" /> <label for="radio"></label> RG:
+        <input type="" id="radio" /> <label for="radio"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend><b style="background-color:blueviolet; color:#fff;">Áreas de atuação/objetivo</b></legend>
+        Descrição :<input
+          type=""
+          placeholder="Insira a área que vc atua ou função desejada na empresa"
+          size="70"
+        />
+        <label for="radio"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend><b style="background-color:blueviolet; color:#fff;">Formação educacional</b></legend>
+        Nivel Escolaridade: <select id="escolaridade">
+          <option >Fundamental</option>
+          <option >Médio</option>
+          <option >Superior</option>
+          <option >Técnico</option>
+        </select>
+        <label></label> Local de Formação :<input
+          type=""
+          placeholder="Insira aqui o nome da instituição que vc cursou o ultimo nivel de ensino"
+          size="70"
+        />
+        <label for="radio"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend><b style="background-color:blueviolet; color:#fff;">Experiência Profissional</b></legend>
+        Local: <input type="" />
+        <label ></label> 
+        Local: <input type=""/>
+        <label ></label><br />
+        Função: <input type="" />
+        <label ></label> 
+        Função: <input type=""/>
+        <label ></label><br />
+        Período: <input type="date"  />
+        <label ></label>
+        Período: <input type="date" />
+        <label ></label>
+      </fieldset>
+
+      <fieldset>
+        <legend><b style="background-color:blueviolet; color:#fff;">Cursos e capacitação</b></legend>
+        Curso: <input type="" />
+        <label ></label> 
+        Curso: <input type=""  />
+        <label ></label><br />
+        Local: <input type=""  />
+        <label ></label> 
+        Local:<input type="" />
+        <label ></label><br />
+        Período: <input type="date" />
+        <label></label>
+        Período: <input type="date" />
+        <label></label>
+      </fieldset>
+      <br>
+
+      Data de Validação do curriculo: <input type="date"> 
+    <button type="reset">Limpar Cadastro</button>
+    <button type="submit">Cadastrar Curriclo</button>
+    </form>
+  </body>
+</html>
